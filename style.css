@@ -1,8 +1,18 @@
-html{
-    font-size: 10px;
-}
+/* Error: expected "}".
+ *   ,
+ * 7 |   font-family: "Open Sans", Verdana, sans-serif;
+ *   |                                                 ^
+ *   '
+ *   sass\base\_base.scss 7:49  @import
+ *   sass\style.scss 1:9        root stylesheet */
 
-body{
-    font-size: 1.6rem;
-    font-family: "Open Sans", Verdana, sans-serif;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "}".\a   \2577 \a 7 \2502    font-family: "Open Sans", Verdana, sans-serif;\a   \2502                                                  ^\a   \2575 \a   sass\\base\\_base.scss 7:49  @import\a   sass\\style.scss 1:9        root stylesheet';
 }
