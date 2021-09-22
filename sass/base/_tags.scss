@@ -8,11 +8,12 @@
 .tag{
   border-radius: 90px;
   padding: 0 14px;
+  cursor: pointer;
   @include font(1.3rem, 2.8rem);
 
   &_selected{
     background-color: $color-primary;
-    color: $color-light
+    color: $color-light;
   }
 
   &_bordered{
@@ -20,6 +21,6 @@
   }
 
   &_colored{
-    background-color: $color-border;
+    background-color: $color-tag;
   }
 }

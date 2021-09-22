@@ -7,7 +7,7 @@
   line-height: 2.2rem;
   border-radius: 4px;
   cursor: pointer;
-  transition: all .3s;
+  @extend %transition;
   &_bordered {
     background: $color-light;
     color: $color-text;
@@ -33,5 +33,16 @@
   @extend %font-add;
   display: inline-flex;
   align-items: center;
+  transition: 3s;
+  &:hover{
+    color: $color-red;
+    .ico_play{
+      background-image: url("./img/Triangle Copy 6.jpg");
+    }
+  }
+}
+
+.link-button__text{
+  margin-left: 9px;
 }
 
