@@ -1,4 +1,4 @@
-@import "base/normalize";
+
 //abstrackt
 @import "abstrackt/constants";
 @import "abstrackt/placeholder";
@@ -10,11 +10,15 @@
 @import "base/logo";
 @import "base/icons";
 @import "base/tags";
+@import "base/normalize";
+@import "base/madal";
+@import "base/hamburger";
 
 //layout
 @import "layout/wrapper";
 @import "layout/header";
 @import "layout/columns";
+@import "layout/footer";
 
 // Components
 @import "components/contact-us";
@@ -22,3 +26,5 @@
 @import "components/navigation";
 @import "components/tools";
 @import "components/stategies";
+@import "components/about-us";
+
