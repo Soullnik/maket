@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Friday live coding</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700&display=swap" rel="stylesheet">
-    <link href="http://https://github.com/SamBelosheev/maket/blob/gh-pages/maket_1.html" rel="stylesheet">
-    <link href="https://https://github.com/SamBelosheev/maket/blob/gh-pages/maket_1.html" rel="stylesheet">
-    <link href="//https://github.com/SamBelosheev/maket/blob/gh-pages/maket_1.html" rel="stylesheet">
     <link rel="stylesheet" href="sass/style.css">
 </head>
 <body>
-    <header class="header">
+<header class="header">
     <div class="wrapper header__wrapper">
+        <div class="header__logo-line">
+            <span class="header__hamburger hamburger"><span class="hamburger__line"></span></span>
         <a href="#" class="logo">
             <object type="image/svg+xml" data="./img/Logo.svg" class="logo-object">
 
             </object>
         </a>
         <!-- <img src="./img/strategy/Logo.svg" alt="Productly LCC"> -->
+        </div>
         <nav class="header__navigation">
             <ul class="navigation">
                 <li class="navigation__links">Home</li>
@@ -32,7 +32,7 @@
             <button class="button button_colored">Sign_Up</button>
         </div>
     </div>
-    </header>
+</header>
     <section class="promo">
         <div class="wrapper promo__wrapper">
             <div class="promo__title">
@@ -41,9 +41,6 @@
                      <div class="promo__button">
                         <button class="button button_colored">Get_Started</button>
                         <a href="#" class="link-button">
-                        <span class="ico ico_play">
-                            <img src="./img/Triangle Copy 6.jpg" alt="strategy">
-                        </span>
                         <span class="ico ico_play"></span> Watch the Video
                         </a>
                     </div>
@@ -58,7 +55,8 @@
                 <div class="tools">
                     <div class="tool__icon">
                         <span class="icon-square icon-square_violet">
-                            <span class="ico ico_arrow"></span>
+                            <span class="ico ico_arrow">
+                            </span>
                         </span>
                     </div>
                     <h4 class="tools__titles">First click tests</h4>
@@ -67,7 +65,8 @@
                 <div class="tools">
                     <div class="tool__icon">
                         <span class="icon-square icon-square_yellow">
-                            <span class="ico ico_warm"></span>
+                            <span class="ico ico_warm">
+                            </span>
                         </span>
                     </div>
                     <h4 class="tools__titles">Design surveys</h4>
@@ -76,7 +75,8 @@
                 <div class="tools">
                     <div class="tool__icon">
                         <span class="icon-square icon-square_red">
-                            <span class="ico ico_heart"></span>
+                            <span class="ico ico_heart">
+                            </span>
                         </span>
                     </div>
                     <h4 class="tools__titles">Preference tests</h4>
@@ -85,7 +85,9 @@
                 <div class="tools">
                     <div class="tool__icon">
                         <span class="icon-square icon-square_blue">
-                            <span class="ico ico_time"></span>
+                            <span class="ico ico_time">
+                                <img src="./img/time.svg" alt="strategy">
+                            </span>
                         </span>
                     </div>
                     <h4 class="tools__titles">Five second tests</h4>
@@ -201,7 +203,7 @@
                             <p class="employee__title">Product Manager</p>
                             <a class="employee__contact" href="mailto:kathyr@gmail.com">kathyr@gmail.com</a>
                         </div>
-                        <img class="employee__photo" src="./img/Avator.jpg" alt="Kathy Rosenberg">
+                        <img class="employee__photo" src="./img/Avator.png" alt="Kathy Rosenberg">
                     </div>
                     <div class="employee block-shadowed">
                         <div class="employee__content">
@@ -209,7 +211,7 @@
                             <p class="employee__title">Support Marketing Specialist</p>
                             <a class="employee__contact" href="mailto:alexandrab@gmail.com">alexandrab@gmail.com</a>
                         </div>
-                        <img class="employee__photo" src="./img/Avator%20(1).jpg" alt="Alexandra Boyarskaya">
+                        <img class="employee__photo" src="./img/Avator%20(1).png" alt="Alexandra Boyarskaya">
                     </div>
                     <div class="employee block-shadowed">
                         <div class="employee__content">
@@ -217,7 +219,7 @@
                             <p class="employee__title">Photographer</p>
                             <a class="employee__contact" href="mailto:melania@gmail.com">melania@gmail.com</a>
                         </div>
-                        <img class="employee__photo" src="./img/Avator%20(2).jpg" alt="Melani Amini">
+                        <img class="employee__photo" src="./img/Avator%20(2).png" alt="Melani Amini">
                     </div>
                 </div>
             </div>
@@ -255,34 +257,36 @@
         <footer class="footer">
             <div class="wrapper footer__wrapper">
                 <div class="footer-navigation layout-4-column">
-                    <a href="#" class="logo">
-                        <object type="image/svg+xml" data="./img/Logo.svg" class="logo-object"></object>
-                    </a>
+                    <div>
+                        <a href="#" class="logo">
+                            <object type="image/svg+xml" data="./img/Logo.svg" class="logo-object"></object>
+                        </a>
+                    </div>
                     <div class="footer-navigation__column">
                         <h4 class="footer-navigation__title">Quick Links</h4>
                         <ul class="footer-navigation__links">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">FAQ</a></li>
+                            <li class="navigation__links">About Us</li>
+                            <li class="navigation__links">Blog</li>
+                            <li class="navigation__links">Contact</li>
+                            <li class="navigation__links">FAQ</li>
                         </ul>
                     </div>
                     <div class="footer-navigation__column">
                         <h4 class="footer-navigation__title">Legal Stuff</h4>
                         <ul class="footer-navigation__links">
-                            <li><a href="#">Disclamer</a></li>
-                            <li><a href="#">Financing</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms of Service</a></li>
+                            <li class="navigation__links">Disclamer</li>
+                            <li class="navigation__links">Financing</li>
+                            <li class="navigation__links">Privacy Policy</li>
+                            <li class="navigation__links">Terms of Service</li>
                         </ul>
                     </div>
                     <div class="footer-navigation__column">
                         <h4 class="footer-navigation__title">Quick Links</h4>
                         <ul class="footer-navigation__links">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">FAQ</a></li>
+                            <li class="navigation__links">About Us</li>
+                            <li class="navigation__links">Blog</li>
+                            <li class="navigation__links">Contact</li>
+                            <li class="navigation__links">FAQ</li>
                         </ul>
                     </div>
                 </div>
