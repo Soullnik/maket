@@ -1,0 +1,24 @@
+.navigation{
+  list-style-type: none;
+  display: flex;
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+}
+
+.navigation__links{
+  list-style-type: none;
+  padding: 0 10px;
+  cursor: pointer;
+  @extend %transition;
+  &:hover {
+    color: $color-primary;
+  }
+}
+
+.header__navigation{
+  list-style-type: none;
+  display: flex;
+  @include media-tablet{
+    display: none;
+  }
+}
