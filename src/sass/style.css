@@ -211,13 +211,13 @@ h5 {
 }
 
 .ico_arrow {
-  background-image: url("/src/img/icons/arrow.svg");
+  background-image: url("../src/img/icons/arrow.svg");
   width: 12px;
   height: 17px;
 }
 
 .ico_warm {
-  background-image: url("/src/img/icons/warm.svg");
+  background-image: url("./././src/img/icons/warm.svg");
   width: 12px;
   height: 17px;
 }
