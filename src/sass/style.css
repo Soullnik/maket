@@ -205,13 +205,13 @@ h5 {
 }
 
 .ico_play {
-  background-image: url("/src/img/icons/Triangle Copy 6.jpg");
+  background-image: url("./././src/img/icons/Triangle Copy 6.jpg");
   width: 18px;
   height: 19px;
 }
 
 .ico_arrow {
-  background-image: url("../src/img/icons/arrow.svg");
+  background-image: url("./././src/img/icons/arrow.svg");
   width: 12px;
   height: 17px;
 }
@@ -223,25 +223,25 @@ h5 {
 }
 
 .ico_heart {
-  background-image: url("/src/img/icons/heart.svg");
+  background-image: url("./././src/img/icons/heart.svg");
   width: 12px;
   height: 17px;
 }
 
 .ico_time {
-  background-image: url("/src/img/icons/time.svg");
+  background-image: url("./././src/img/icons/time.svg");
   width: 12px;
   height: 17px;
 }
 
 .ico_phone {
-  background-image: url("/src/img/icons/ico_phone.jpg");
+  background-image: url("./././src/img/icons/ico_phone.jpg");
   width: 13px;
   height: 13px;
 }
 
 .ico-ico_later {
-  background-image: url("/src/img/icons/ico_mail.jpg");
+  background-image: url("./././src/img/icons/ico_mail.jpg");
   width: 13px;
   height: 13px;
 }
